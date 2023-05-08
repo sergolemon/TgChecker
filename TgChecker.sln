@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TgChecker.Console", "TgChecker.Console\TgChecker.Console.csproj", "{BEA41668-B5DF-4688-950C-2266F975A986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TgChecker.Lib", "TgChecker.Lib\TgChecker.Lib.csproj", "{D5621BE6-D616-473F-8A52-31D4D9F0436D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA41668-B5DF-4688-950C-2266F975A986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA41668-B5DF-4688-950C-2266F975A986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA41668-B5DF-4688-950C-2266F975A986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA41668-B5DF-4688-950C-2266F975A986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5621BE6-D616-473F-8A52-31D4D9F0436D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5621BE6-D616-473F-8A52-31D4D9F0436D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5621BE6-D616-473F-8A52-31D4D9F0436D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5621BE6-D616-473F-8A52-31D4D9F0436D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B22C25D-3341-4866-A97C-D16A24F36F56}
+	EndGlobalSection
+EndGlobal
