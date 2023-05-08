@@ -13,7 +13,9 @@ namespace TgChecker.Lib.Extensions
     {
         public static IServiceCollection AddTgCheckerServices(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<EfSQLiteDbContext>(cfg => cfg.UseSqlite(configuration.GetConnectionString("data.db")));
+            services.AddDbContext<EfSQLiteDbContext>(cfg => cfg.UseSqlite(configuration.GetConnectionString("SQLiteConnStr")));
+
+            services.AddSingleton<TgCheckerService>();
 
             return services;
         }

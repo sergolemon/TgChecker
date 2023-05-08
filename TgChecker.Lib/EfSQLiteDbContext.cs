@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TgChecker.Lib
 {
-    internal class EfSQLiteDbContext : DbContext
+    public class EfSQLiteDbContext : DbContext
     {
         public EfSQLiteDbContext(DbContextOptions<EfSQLiteDbContext> opts) : base(opts)
         {

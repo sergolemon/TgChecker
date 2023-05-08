@@ -16,10 +16,7 @@ namespace TgChecker.Console
         {
             var config = ConfigurationHelper.GetConfiguration();
 
-            services.AddSingleton<IConfiguration>(cfg =>
-            {
-                return config;
-            });
+            services.AddSingleton<IConfiguration>(cfg => config);
 
             services.AddTgCheckerServices(config);
         }
